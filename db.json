@@ -1,0 +1,347 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "John Doe",
+      "password": "abcd",
+      "position": "Software Engineer",
+      "department": "Engineering",
+      "email": "john.doe@example.com",
+      "phone": "+1234567890",
+      "projects": [
+        {
+          "id": 1,
+          "name": "Project A",
+          "description": "Lorem ipsum"
+        },
+        {
+          "id": 2,
+          "name": "Project B",
+          "description": "Dolor sit amet"
+        }
+      ],
+      "deliverables": [
+        {
+          "id": 1,
+          "name": "Task A",
+          "description": "Something1"
+        },
+        {
+          "id": 2,
+          "name": "Task B",
+          "description": "Something2"
+        },
+        {
+          "name": "ffcf",
+          "description": "rdrdrd"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Jane Smith",
+      "password": "abcd",
+      "position": "Product Manager",
+      "department": "Product Management",
+      "email": "jane.smith@example.com",
+      "phone": "+1234567891",
+      "projects": [
+        {
+          "id": 3,
+          "name": "Project C",
+          "description": "Aliquam erat volutpat"
+        },
+        {
+          "id": 4,
+          "name": "Project D",
+          "description": "Vestibulum ante ipsum"
+        }
+      ],
+      "deliverables": [
+        {
+          "id": 3,
+          "name": "Task C",
+          "description": "Something3"
+        },
+        {
+          "id": 4,
+          "name": "Task D",
+          "description": "Something4"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Michael Johnson",
+      "password": "abcd",
+      "position": "UX Designer",
+      "department": "Design",
+      "email": "michael.johnson@example.com",
+      "phone": "+1234567892",
+      "projects": [
+        {
+          "id": 5,
+          "name": "Project E",
+          "description": "Curabitur cursus"
+        },
+        {
+          "id": 6,
+          "name": "Project F",
+          "description": "Vivamus nec nisl"
+        }
+      ],
+      "deliverables": [
+        {
+          "id": 5,
+          "name": "Task E",
+          "description": "Something5"
+        },
+        {
+          "id": 6,
+          "name": "Task F",
+          "description": "Something6"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "name": "Emily Davis",
+      "password": "abcd",
+      "position": "Data Scientist",
+      "department": "Data Analysis",
+      "email": "emily.davis@example.com",
+      "phone": "+1234567893",
+      "projects": [
+        {
+          "id": 7,
+          "name": "Project G",
+          "description": "Phasellus lacinia"
+        },
+        {
+          "id": 8,
+          "name": "Project H",
+          "description": "Praesent aliquam"
+        }
+      ],
+      "deliverables": [
+        {
+          "id": 7,
+          "name": "Task G",
+          "description": "Something7"
+        },
+        {
+          "id": 8,
+          "name": "Task H",
+          "description": "Something8"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "name": "David Wilson",
+      "password": "abcd",
+      "position": "QA Engineer",
+      "department": "Quality Assurance",
+      "email": "david.wilson@example.com",
+      "phone": "+1234567894",
+      "projects": [
+        {
+          "id": 9,
+          "name": "Project I",
+          "description": "Mauris vulputate"
+        },
+        {
+          "id": 10,
+          "name": "Project J",
+          "description": "Donec lacinia"
+        }
+      ],
+      "deliverables": [
+        {
+          "id": 9,
+          "name": "Task I",
+          "description": "Something9"
+        },
+        {
+          "id": 10,
+          "name": "Task J",
+          "description": "Something10"
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "name": "Sarah Connor",
+      "password": "abcd",
+      "position": "DevOps Engineer",
+      "department": "Operations",
+      "email": "sarah.connor@example.com",
+      "phone": "+1234567895",
+      "projects": [
+        {
+          "id": 11,
+          "name": "Project K",
+          "description": "Integer feugiat"
+        },
+        {
+          "id": 12,
+          "name": "Project L",
+          "description": "Lorem ipsum dolor"
+        }
+      ],
+      "deliverables": [
+        {
+          "id": 11,
+          "name": "Task K",
+          "description": "Something11"
+        },
+        {
+          "id": 12,
+          "name": "Task L",
+          "description": "Something12"
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "name": "Tom Baker",
+      "password": "abcd",
+      "position": "System Administrator",
+      "department": "IT Support",
+      "email": "tom.baker@example.com",
+      "phone": "+1234567896",
+      "projects": [
+        {
+          "id": 13,
+          "name": "Project M",
+          "description": "Suspendisse potenti"
+        },
+        {
+          "id": 14,
+          "name": "Project N",
+          "description": "Quisque sit amet"
+        }
+      ],
+      "deliverables": [
+        {
+          "id": 13,
+          "name": "Task M",
+          "description": "Something13"
+        },
+        {
+          "id": 14,
+          "name": "Task N",
+          "description": "Something14"
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "name": "Alice Johnson",
+      "password": "abcd",
+      "position": "Business Analyst",
+      "department": "Business Analysis",
+      "email": "alice.johnson@example.com",
+      "phone": "+1234567897",
+      "projects": [
+        {
+          "id": 15,
+          "name": "Project O",
+          "description": "Vestibulum at"
+        },
+        {
+          "id": 16,
+          "name": "Project P",
+          "description": "Fusce dapibus"
+        }
+      ],
+      "deliverables": [
+        {
+          "id": 15,
+          "name": "Task O",
+          "description": "Something15"
+        },
+        {
+          "id": 16,
+          "name": "Task P",
+          "description": "Something16"
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "name": "Robert Brown",
+      "password": "abcd",
+      "position": "Marketing Specialist",
+      "department": "Marketing",
+      "email": "robert.brown@example.com",
+      "phone": "+1234567898",
+      "projects": [
+        {
+          "id": 17,
+          "name": "Project Q",
+          "description": "Etiam ultricies"
+        },
+        {
+          "id": 18,
+          "name": "Project R",
+          "description": "Donec ullamcorper"
+        }
+      ],
+      "deliverables": [
+        {
+          "id": 17,
+          "name": "Task Q",
+          "description": "Something17"
+        },
+        {
+          "id": 18,
+          "name": "Task R",
+          "description": "Something18"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "name": "Laura White",
+      "password": "abcd",
+      "position": "HR Manager",
+      "department": "Human Resources",
+      "email": "laura.white@example.com",
+      "phone": "+1234567899",
+      "projects": [
+        {
+          "id": 19,
+          "name": "Project S",
+          "description": "Cras justo odio"
+        },
+        {
+          "id": 20,
+          "name": "Project T",
+          "description": "Dapibus ac facilisis"
+        }
+      ],
+      "deliverables": [
+        {
+          "id": 19,
+          "name": "Task S",
+          "description": "Something19"
+        },
+        {
+          "id": 20,
+          "name": "Task T",
+          "description": "Something20"
+        }
+      ]
+    },
+    {
+      "id": "d9b9",
+      "name": "Nick",
+      "email": "abc@gmail.com",
+      "phoneNo": "8888888888",
+      "password": "wasdqe",
+      "role": "",
+      "position": "Product Manager"
+    }
+  ]
+}

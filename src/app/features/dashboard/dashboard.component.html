@@ -1,0 +1,30 @@
+<!-- dashboard.component.html -->
+<div class="dashboard">
+    <div class="user-info">
+        <h1>Welcome, {{ userData?.name }}</h1>
+        <p><strong>Position:</strong> {{ userData?.position }}</p>
+        <p><strong>Email:</strong> {{ userData?.email }}</p>
+    </div>
+
+    <div class="widgets">
+        <div class="widget">
+            <h3>Recent Tasks</h3>
+            <ul>
+                <li *ngFor="let task of tasks">
+                    <span class="task-title">{{ task.title }}</span>
+                    <span class="task-status" [ngClass]="task.status.toLowerCase()">{{ task.status }}</span>
+                </li>
+            </ul>
+        </div>
+
+        <div class="widget">
+            <h3>Notifications</h3>
+            <ul>
+                <li *ngFor="let notification of notifications">
+                    <span class="notification-message">{{ notification.message }}</span>
+                    <span class="notification-date">{{ notification.date }}</span>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>

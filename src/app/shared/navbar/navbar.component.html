@@ -1,0 +1,15 @@
+<nav class="navbar">
+    <div class="navbar-brand">
+        <a href="#">Employee Dashboard</a>
+
+    </div>
+    <div class="navbar-menu">
+        <ul class="navbar-links">
+            <li><a routerLink="/dashboard">Dashboard</a></li>
+            <ng-container *ngIf="isManager">
+                <li><a routerLink="/employees">Show Employees</a></li>
+            </ng-container>
+            <li><a (click)="logout()" >Logout</a></li>
+        </ul>
+    </div>
+</nav>

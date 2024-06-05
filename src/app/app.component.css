@@ -1,0 +1,8 @@
+app-employee{
+  padding :10px
+}
+
+router-outlet .container{
+  height: 200px;
+  overflow: scroll;
+}
